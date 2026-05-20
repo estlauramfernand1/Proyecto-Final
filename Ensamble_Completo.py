@@ -341,9 +341,8 @@ def display():
     dibujar_ensamble()
     glutSwapBuffers()
 
-# =========================================================
+
 # CONTROL DE CÁMARA
-# =========================================================
 def vista_superior():
     global cam_angX, cam_angY
     cam_angX = 90
